@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel&display=swap');
+
+body, html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #FFD046;
+}
+
+main {
+  margin: 0 auto;
+  width: 70%;
+  background-color: #7E4B11;
+}
+p {
+  font-family: 'Martel', serif;
+}
+
+h1 {
+  font-family: 'Work Sans', sans-serif;
+}
+h2 {
+  font-family: 'Cuprum', sans-serif;
+}
+
+img {
+  float: right;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+footer {
+  margin-top: auto;
+  background-color: #384348;
+  padding: .5rem;
+}
+
+svg{
+	fill: #384348;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 14px;
+}
+
+
+nav {
+  display: flex;
+  background-color: #E94F37;
+  padding: .5rem;
+  font-size: 1.4rem;
+  justify-content: center;
+}
+
+a {
+  color: #FFD046;
+  font-family: 'Work Sans', sans-serif;
+}
+
+a:hover {
+  color: #ffdd75;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  margin: 0 1rem;
+  list-style: none;
+}
